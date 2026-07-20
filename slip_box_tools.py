@@ -18,7 +18,9 @@ class Note(BaseModel):
         return f"""
 ---
 id: {self.id}
+
 kind: {self.kind}
+
 links: {self.links}
 ---
 
