@@ -22,6 +22,7 @@ id: {self.id}
 kind: {self.kind}
 
 links: {self.links}
+
 ---
 
 # {self.title}
