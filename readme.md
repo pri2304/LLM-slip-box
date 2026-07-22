@@ -18,7 +18,7 @@ The project explores how a local LLM can use a slip-box as external memory by se
 
 ## Requirements
 
-* Python 3.12+ (or your version)
+* Python 3.14+
 * uv
 * Ollama
 * A tool-calling model (currently tested with `qwen3.5:9b`)
@@ -70,6 +70,21 @@ Available commands:
 3. Existing notes are used for reasoning.
 4. New atomic notes are created when appropriate.
 5. Related notes are linked together.
+
+## Example Note
+
+```markdown
+---
+id: 9c8d...
+kind: observation
+links: []
+
+---
+
+# Atomic Notes
+
+An atomic note contains a singular idea.
+```
 
 ## Roadmap
 
