@@ -12,6 +12,7 @@ The project explores how a local LLM can use a slip-box as external memory by se
 ├── prompts/            # System prompts
 ├── llm-core.py         # Main LLM loop
 ├── slip_box_tools.py   # Slip-box implementation & tools
+├── readme.md
 ├── pyproject.toml
 └── uv.lock
 ```
