@@ -29,7 +29,8 @@ The project explores how a local LLM can use a slip-box as external memory by se
 Clone the repository:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/pri2304/LLM-slip-box/
+
 cd llm-slip-box
 ```
 
